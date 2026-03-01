@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Newsletter</h1>
+            <button id="btnTheme" class="btn">
+                <i id="theme-icon" class="fa-solid fa-sun"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="box">
+            <h2>Escreva-se</h2>
+            <p>Receba novidades do seu e-mail. Sem Spam.</p>
+
+            <form action="" class="form-container">
+                <div class="form-box">
+                    <label for="name">Nome</label>
+                    <input 
+                        type="text" 
+                        name="name" 
+                        id="name" 
+                        placeholder="Digite aqui o seu nome completo"
+                        />
+                </div>
+
+                <div class="form-box">
+                    <label for="name">E-mail</label>
+                    <input 
+                        type="email" 
+                        name="email" 
+                        id="email" 
+                        placeholder="Digite aqui o seu E-mail"
+                        />
+                </div>
+
+                <button type="submit" class="btn primario">Enviar</button>    
+            </form>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <small>Newsletter @<span id="ano">2025</span></small>
+        </div>
+    </footer>
+    <script src="./JS/index.js"></script>
+</body>
+</html>
